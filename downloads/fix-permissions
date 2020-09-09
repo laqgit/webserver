@@ -1,0 +1,5 @@
+#!/bin/bash
+chmod +x axel/download-axel
+chmod +x axel/download-wget
+chmod +x axel/download-m3u8
+chmod +x axel/download-youtube
