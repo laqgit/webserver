@@ -20,7 +20,7 @@ elif (type=="axel"):
 elif (type == "youtube"):
     ls = os.system("echo youtube "  + link +" >> downloads/youtube/dl-youtube.txt")
 elif (type == "m3u8"):
-    ls = os.system("echo ffmpeg -i "+ link +" -c copy -bsf:a aac_adtstoasc " + filename  ">> downloads/m3u8/dl-m3u8.txt")
+    ls = os.system("echo ffmpeg -i "+ link +" -c copy -bsf:a aac_adtstoasc " + filename + ">> downloads/m3u8/dl-m3u8.txt")
 
 
 

@@ -1,0 +1,5 @@
+#!/bin/bash
+file='dl-youtube.txt'
+while read line; do
+$line
+done < $file

@@ -1,0 +1,4 @@
+file='dl-m3u8.txt'
+while read line; do
+$line
+done < $file
