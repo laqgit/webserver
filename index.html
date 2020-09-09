@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <a href="/index.html">index</a>
+  <a href="/downloads">downloads</a>
+  <br /><br />
+
+  <h1>The form method="webserver2" </h1>
+
+  <form action = "/cgi-bin/api.py" method = "get">
+    download link: <input type = "text"  size= 140 name = "link">  <br />
+    filename: <input type = "text" name = "filename">  <br />
+
+    <label for="cars">Choose a car:</label>
+    <select name="type" >
+      <option value="wget">wget</option>
+      <option value="axel">axel</option>
+      <option value="m3u8">m3u8</option>
+      <option value="youtube">youtube</option>
+    </select>
+    <br/><br/>
+
+<!-- Last Name: <input type = "text" name = "last_name" /> <br /> -->
+  <input type = "submit" value = "add link" />
+  </form>
+
+
+
+
+</body>
+</html>

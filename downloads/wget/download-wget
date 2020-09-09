@@ -1,0 +1,6 @@
+#!/bin/bash
+
+file='dl-wget.txt'
+while read line; do
+$line
+done < $file
